@@ -1,0 +1,26 @@
+[DEFAULT]
+#loglevel = INFO
+
+#stats collection interval (can be overriden per-metric type)
+#interval = 60
+
+[influxdb]
+influxdb_host = 10.0.0.1
+influxdb_username = influxuser
+influxdb_password = influxpass
+influxdb_database = libvirt
+
+[libvirt_vcpus]
+#enabled = True
+
+[libvirt_interfaces]
+#enabled = True
+
+#example interval override
+#interval = 30
+
+[libvirt_memory]
+#enabled = True
+
+[libvirt_block]
+#enabled = True
